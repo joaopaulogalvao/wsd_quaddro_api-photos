@@ -1,0 +1,30 @@
+{
+  "name": "wsd_quaddro_api-photos",
+  "version": "1.0.0",
+  "description": "This is the WSD's practical activity.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "scripts": {
+    "test": "mocha test/e2e/*.spec.js",
+    "start:production": "pm2 start app.js --name 'API'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaopaulogalvao/wsd_quaddro_api-photos.git"
+  },
+  "keywords": [
+    "apiPhotos"
+  ],
+  "author": "Joao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaopaulogalvao/wsd_quaddro_api-photos/issues"
+  },
+  "homepage": "https://github.com/joaopaulogalvao/wsd_quaddro_api-photos#readme"
+}
